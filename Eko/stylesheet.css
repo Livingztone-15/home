@@ -1,0 +1,46 @@
+
+body{
+    background-color:#ECFFDC;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family:arial,sans-serif;
+    font-size: 60px;
+  }
+
+  div{
+    display: flex;
+    display: inline-block
+  }
+
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+  }
+
+  a{
+    font-weight: bold;
+    color: darkgreen;
+    width: 200px;
+}
+ nav a{
+    text-decoration: none;
+ }
+ li{
+    background-color: cornsilk;
+ }
+ ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .current{
+    text-transform: uppercase;
+    background-color: lime;
+ }
